@@ -1,0 +1,132 @@
+File,Category,Subcategory,More Accurate/Less Accurate,Cyclomatic Complexity,SLoC,Halstead Distinct Operators,Halstead Distinct Operands,Comments,Notes
+takes-a-file-and-a-line-number-and-prints-the-line-number.py,data-analysis,data-storage,more,4,15,3,5,0,
+compresses-and-decompresses-a-text-file.py,data-analysis,data-storage,more,5,28,2,5,3,
+takes-a-json-file-and-reads-it-into-the-program-as-a-json-ob.py,data-analysis,data-storage,more,4,16,1,2,4,
+converts-a-csv-file-to-a-json-file.py,data-analysis,data-storage,more,1,11,0,0,3,Note: had to have an input.csv file in the directory the program got ran in
+generates-some-amount-of-random-numbers-and-stores-them-in-a.py,data-analysis,data-storage,more,3,11,1,2,1,
+interfaces-with-a-mysql-database-library-and-puts-provided-f.py,data-analysis,data-storage,more,9,62,2,6,11,Needs mysql-connector package
+displays-a-discrete-graph-needs-a-representation-and-possib.py,data-analysis,data-visualizations,less,2,12,1,2,6,It might not have understood what I meant by a discrete graph (although it did understand in other situations)
+displays-a-box-and-whiskers-plot-for-an-array-of-integers.py,data-analysis,data-visualizations,more,2,12,1,2,1,
+creates-a-python-script-that-takes-a-csv-file-with-the-heade.py,data-analysis,data-visualizations,more,2,11,1,2,7,"Needs data.csv in running directory and some editing of the file to select the headers, which must be numerical"
+when-given-a-list-of-strings-determines-the-statistically-s.py,data-analysis,data-visualizations,more,6,14,5,13,8,
+when-given-a-csv-file-with-an-id-column-and-a-timestamp-colu.py,data-analysis,data-visualizations,more,1,14,1,2,9,Uses dataTimestamp.csv
+graphs-an-array-of-tuples-x-y-on-a-cartesian-coordinate-p.py,data-analysis,data-visualizations,more,1,12,0,0,7,
+determines-how-far-each-number-in-a-list-of-numbers-is-from.py,data-analysis,statistics,more,2,8,1,2,4,
+finds-the-outliers-in-a-data-set.py,data-analysis,statistics,more,1,13,6,11,5,
+finds-the-standard-deviation-of-a-list-of-numbers.py,data-analysis,statistics,more,3,12,1,2,3,
+finds-the-mean-median-mode-and-range-of-a-list-of-numbers.py,data-analysis,statistics,more,6,34,7,19,3,
+when-given-a-list-of-numbers-determines-how-far-each-number.py,data-analysis,statistics,more,4,8,1,2,4,
+when-given-a-csv-and-two-columns-from-the-csv-perform-a-lin.py,data-analysis,ml-predictive-models,more,1,14,1,1,7,Needs a csv with numerical data
+finds-a-dataset-of-your-choice-online-and-create-a-predictiv.py,data-analysis,ml-predictive-models,more,1,15,0,0,5,"Either change the sklearn package back to 1.2 or change ""load_boston"" to ""fetch_california_housing"""
+creates-a-pie-plot-to-get-the-frequency-of-the-three-species.py,data-analysis,iris-flower-dataset-problems,more,2,13,1,2,4,Change the column to target. I used this dataset: https://gist.github.com/Thanatoz-1/9e7fdfb8189f0cdf5d73a494e4a6392a#file-iris_dataset-csv
+creates-a-graph-to-see-how-the-length-and-width-of-sepalleng.py,data-analysis,iris-flower-dataset-problems,more,1,22,0,0,8,Must change the column names for these as well
+loads-the-iris-data-from-a-given-csv-file-into-a-dataframe-a.py,data-analysis,iris-flower-dataset-problems,more,1,6,0,0,4,no change is needed
+views-basic-statistical-details-like-percentile-mean-std-e.py,data-analysis,iris-flower-dataset-problems,more,1,4,0,0,2,no change is needed
+creates-a-plot-to-get-a-general-statistics-of-iris-data.py,data-analysis,iris-flower-dataset-problems,less,1,18,1,1,6,"Interpreter error, seems that the program didn't like the dataset, it says ""Objects cannot be broadcast to a single shape"""
+determines-the-sentiment-of-an-amazon-product-review.py,data-analysis,sentiment-dataset-problems,more,3,16,3,3,5,Needs nltk package
+takes-all-of-the-datasets-and-normalizes-the-sentences.py,data-analysis,sentiment-dataset-problems,more,5,40,2,4,3,"It did ""normalize"" the text, but it could be argued that the normalization is actually tokenization"
+determines-the-sentiment-of-a-comment-on-imdb.py,data-analysis,sentiment-dataset-problems,more,4,18,4,6,6,Needs nltk
+takes-one-of-the-datasets-and-vectorizes-the-text.py,data-analysis,sentiment-dataset-problems,more,1,7,0,0,5,"Needs dataset.csv with a ""text"" field that contains text"
+takes-all-of-the-datasets-and-removes-the-stop-words-from-th.py,data-analysis,sentiment-dataset-problems,more,6,23,4,7,10,Needs dataset.txt that just has random text
+recursively-sorts-a-stack-of-integers-that-you-randomly-gene.py,algorithms-data-structures,recursion,more,9,32,6,17,5,
+uses-recursion-to-find-the-nth-fibonacci-number.py,algorithms-data-structures,recursion,more,6,16,5,10,3,
+recursively-deletes-every-node-in-an-arbitrarily-long-linked.py,algorithms-data-structures,recursion,less,6,31,2,4,6,doesn't actually delete the nodes apparently?
+recursively-calculates-the-value-of-n-factorial.py,algorithms-data-structures,recursion,more,4,11,5,8,4,
+uses-recursion-to-find-the-occurences-of-a-letter-in-a-strin.py,algorithms-data-structures,recursion,more,4,11,2,8,6,
+uses-several-common-sorting-algorithms-to-sort-an-array-of-r.py,algorithms-data-structures,general,more,23,74,10,48,11,
+is-a-python-version-of-the-unix-tool-wc.py,algorithms-data-structures,general,more,2,19,0,0,3,test it by doing `cat filename | python [THIS_SCRIPT]`
+swaps-the-first-and-last-elements-in-a-list.py,algorithms-data-structures,general,more,2,7,2,3,3,
+finds-the-number-of-occurences-of-a-certain-letter-in-a-stri.py,algorithms-data-structures,general,more,3,10,2,4,3,
+showcases-the-many-ways-to-find-the-length-of-a-list.py,algorithms-data-structures,general,more,6,29,2,8,7,"method three is correct, but not exactly what we thought we meant. It got the length of a string of the list."
+finds-the-maximum-of-two-numbers-without-using-the-max-funct.py,algorithms-data-structures,general,more,2,9,1,2,3,
+generates-a-binary-search-tree-and-prints-a-top-view-of-it-i.py,algorithms-data-structures,general,less,12,54,8,11,13,"It uses a queue to display only some of the values of the nodes, which is strange, although I did ask it to give a ""top"" view of it, which it might not understand"
+generates-a-binary-search-tree-and-performs-a-postorder-trav.py,algorithms-data-structures,general,less,2,13,2,6,7,Needs binarytree module. It was extremely easy to fix. It use the wrong function to generate the random tree. Change build to bst
+determines-whether-or-not-a-string-is-a-palindrome-or-is-sym.py,algorithms-data-structures,general,more,5,13,4,9,3,
+swaps-an-arbitrary-two-elements-in-a-list.py,algorithms-data-structures,general,more,6,13,4,11,1,
+finds-the-length-of-a-string-in-python-in-4-different-ways.py,algorithms-data-structures,general,more,3,18,2,6,5,
+prints-the-even-length-words-in-a-string.py,algorithms-data-structures,general,more,3,7,2,4,4,
+generates-a-random-maze-represented-by-a-2d-list-using-ones.py,algorithms-data-structures,general,more,34,89,9,35,4,This one is especially interesting in that it fails most of the time because the maze that it generates doesn't necessarily have a path from one end to the other
+reverses-words-in-a-given-string-in-python.py,algorithms-data-structures,general,more,2,9,2,3,6,
+accepts-a-comma-separated-sequence-of-words-as-input-and-pr.py,algorithms-data-structures,general,more,1,5,0,0,5,note that you must not put spaces between the commas
+is-a-python-version-of-the-unix-tool-uniq.py,algorithms-data-structures,general,more,7,12,4,9,4,
+when-given-an-arbitrary-string-apply-an-n-shift-caesar-cyph.py,algorithms-data-structures,general,more,4,15,3,18,3,
+implements-a-simple-string-hashing-algorithm-and-uses-it-on.py,algorithms-data-structures,general,more,2,11,1,2,8,"Note that while it works, it didn't technically implement it's ""own"" function, but used a library to do a sha256 hash"
+generates-a-binary-search-tree-and-clones-it.py,algorithms-data-structures,general,more,15,58,3,14,5,
+finds-the-minimum-of-two-numbers-without-using-the-min-funct.py,algorithms-data-structures,general,more,2,9,1,2,4,
+determines-if-a-word-is-an-isogram.py,algorithms-data-structures,general,more,4,13,1,2,9,
+reverses-a-random-linked-list.py,algorithms-data-structures,general,more,4,33,0,0,2,
+hashes-a-provided-photo-filetype-png.py,algorithms-data-structures,general,more,3,16,1,2,5,
+creates-an-arbitrarily-long-linked-list-of-random-numbers.py,algorithms-data-structures,implementation,more,11,29,2,4,1,
+creates-and-randomly-populates-an-arbitrarily-large-binary-s.py,algorithms-data-structures,implementation,more,13,36,3,8,10,"Is correct, but for some reason it doesn't actually display the results on this one which is odd."
+implements-a-binary-search-tree-in-a-class.py,algorithms-data-structures,implementation,more,27,83,6,18,1,
+implements-a-linked-list-data-structure-in-python.py,algorithms-data-structures,implementation,more,15,48,4,12,8,
+creates-a-representation-of-a-matrix-using-lists-and-that-p.py,algorithms-data-structures,implementation,more,14,42,5,13,1,Only allows for row operations because I only gave row operations in my prompt.
+sorts-a-random-array-of-numbers-as-fast-as-possible-and-tell.py,algorithms-data-structures,code-optimization-time-complexity,more,9,14,6,10,2,
+allows-you-to-choose-between-several-different-types-of-frac.py,visual-graphical-drawing,fractals,more,10,64,5,28,6,"It does all of them perfectly, but note that the number should be less than 10, 5 for the koch and sierpinski fractals"
+displays-a-tree-fractal.py,visual-graphical-drawing,fractals,more,3,20,3,7,11,
+displays-a-fractal-triangle.py,visual-graphical-drawing,fractals,more,3,29,3,7,3,
+displays-a-koch-snowflake-of-n-user-provided-iterations.py,visual-graphical-drawing,fractals,more,4,27,3,7,4,It is odd to note that the turtle module was used for all of these problems
+uses-the-python-turtle-module-to-draw-the-letters-gpt-usin.py,visual-graphical-drawing,drawing-common-objects,less,2,42,2,3,1,It obviously doesn't have a notion of what letters look like
+uses-the-python-turtle-module-to-draw-a-2d-8x8-chessboard-of.py,visual-graphical-drawing,drawing-common-objects,more,5,26,6,14,10,"no border, but obviously doesn't matter cause I didn't specify the border"
+uses-at-least-one-for-loop-and-one-while-loop-to-create.py,visual-graphical-drawing,drawing-common-objects,less,3,17,0,0,6,"while it did the assignment correctly, it did not use a while loop to complete it. It makes me wonder if gpt doesn't understand having the structure of the code dictated"
+uses-the-python-turtle-module-draw-a-smiley-face.py,visual-graphical-drawing,drawing-common-objects,more,1,34,1,2,8,"It did significantly better than I thought it would, though the smile was off center"
+uses-the-python-turtle-module-to-draw-a-simple-panda.py,visual-graphical-drawing,drawing-common-objects,more,2,42,3,16,9,"I don't think it would be recognizable as a panda if someone looked at the result... I never expected it to do well though. I'll give it a pass, but just barely"
+prints-a-half-diamond-star-pattern-using-text-with-a-maximum.py,visual-graphical-drawing,drawing-common-objects,more,4,10,5,6,5,
+prints-pascals-triangle-to-n-rows.py,visual-graphical-drawing,drawing-common-objects,less,7,12,4,9,3,"In my experience, GPT never gets centering right"
+accepts-a-png-jpeg-or-gif-and-flips-it-vertically-or-hori.py,visual-graphical-drawing,image-processing,more,3,14,1,3,7,
+accepts-a-png-and-deep-fries-it.py,visual-graphical-drawing,image-processing,more,1,14,0,0,8,"Not as saturated and bad looking as is usually implied by deep frying an image, but impressive that it understood nonetheless"
+accepts-a-stl-file-and-displays-its-contents.py,visual-graphical-drawing,image-processing,less,2,16,2,3,10,It failed and I don't know how to debug it
+accepts-a-png-and-inverts-it.py,visual-graphical-drawing,image-processing,more,1,8,1,2,5,
+accepts-a-png-and-makes-all-of-the-white-in-the-picture-tran.py,visual-graphical-drawing,image-processing,more,4,16,1,4,9,
+accepts-a-png-and-grayscales-it.py,visual-graphical-drawing,image-processing,more,2,9,1,2,5,
+creates-a-user-interface-that-places-a-circle-of-random-size.py,visual-graphical-drawing,gui,more,1,19,3,5,4,
+plays-a-sound-after-a-button-gets-clicked.py,visual-graphical-drawing,gui,more,2,19,1,2,6,
+creates-a-user-interface-for-a-calculator-it-does-not-need.py,visual-graphical-drawing,gui,less,2,11,0,0,5,"I think it misunderstood what I meant, but there was no buttons or anything like that"
+creates-a-ui-that-is-a-basic-desktop-program-with-a-title-ba.py,visual-graphical-drawing,gui,less,1,1,0,0,1,"NOTE: This one is an outlier, a bad datapiont. It flat out refused to generate the code. Must have been to complex of a prompt"
+displays-a-timer.py,visual-graphical-drawing,gui,more,3,14,4,8,3,"did it in the cli, but it worked very well"
+allows-you-to-draw-a-line-between-two-points-that-are-clicke.py,visual-graphical-drawing,gui,more,3,26,2,4,3,
+shows-a-single-select-box-with-some-randomly-generated-optio.py,visual-graphical-drawing,gui,more,3,11,3,5,5,"created the select box in the cli, which isn't what I meant, but I can't fault it for misinterpreting what I said here"
+creates-a-tic-tac-toe-game-with-a-simple-ui.py,visual-graphical-drawing,gui,more,29,77,6,39,0,
+causes-an-empty-window-gui-to-appear-the-window-disappears.py,visual-graphical-drawing,gui,more,1,8,0,0,2,
+generates-random-pixel-art-images-of-any-size.py,visual-graphical-drawing,image-generation,more,4,17,1,2,4,"It only generates random fuzz, can hardly be called ""art"", but it did do what I told it to. The problem might be with the"
+implements-conway-s-game-of-life.py,visual-graphical-drawing,image-generation,more,8,31,9,43,13,
+generates-a-collage-from-pictures-on-the-internet-after-bein.py,visual-graphical-drawing,image-generation,less,3,34,2,5,18,"Old library, seems as though it no longer works: Here is the version that I used: https://github.com/Joeclinton1/google-images-download"
+creates-a-program-that-causes-the-python-turtle-to-travel-wh.py,visual-graphical-drawing,image-generation,more,2,10,1,2,5,
+is-a-calculator-that-gets-the-area-and-volume-of-a-cube-sph.py,mathematics,geometry,more,4,36,5,34,0,
+when-given-integral-number-n-write-a-program-to-generate-a.py,mathematics,general,more,3,9,3,5,0,
+when-given-the-side-length-of-a-square-and-the-radius-of-a-c.py,mathematics,general,more,4,19,5,10,2,
+implements-a-function-that-converts-radians-to-degrees.py,mathematics,general,more,2,8,1,2,0,
+will-find-all-such-numbers-which-are-divisible-by-7-but-are.py,mathematics,general,more,4,5,4,8,5,
+uses-list-comprehension-to-square-each-odd-number-in-a-list.py,mathematics,general,more,3,4,3,5,4,
+inverts-a-tuple-representing-an-rgb-value-for-example-the.py,mathematics,general,more,2,6,1,2,1,
+defines-a-class-with-a-generator-which-can-iterate-the-numb.py,mathematics,general,more,7,12,3,8,1,
+calculates-and-prints-the-value-according-to-the-given-form.py,mathematics,general,more,5,20,4,10,3,
+accepts-a-sequence-of-comma-separated-4-digit-binary-number.py,mathematics,general,more,3,9,2,4,9,
+is-a-calculator-that-takes-an-equation-and-solves-for-x.py,mathematics,algebra,more,2,11,1,2,0,"When representing the two sides of the equation use Eq(), e.g.: Eq(x*2, 4)"
+is-a-calculator-to-multiply-any-number-of-matrices.py,mathematics,linear-algebra,more,7,28,4,8,4,
+is-a-calculator-that-exchanges-matrix-rows.py,mathematics,linear-algebra,more,1,15,0,0,5,
+is-a-calculator-that-transposes-a-matrix.py,mathematics,linear-algebra,more,5,16,1,2,5,
+is-a-calculator-that-inverts-a-matrix.py,mathematics,linear-algebra,more,5,20,2,5,4,
+is-a-calculator-that-multiplies-two-vectors.py,mathematics,linear-algebra,more,3,13,1,2,5,
+is-a-calculator-that-gets-the-eigenvalues-of-a-matrix.py,mathematics,linear-algebra,more,4,22,2,4,0,
+is-a-calculator-that-gets-the-rref-of-a-matrix.py,mathematics,linear-algebra,less,7,30,5,13,0,"Dont know why, but it doesn't even report the correct number of rows and columns for the matrix. Need to do more on this one"
+is-a-calculator-that-completes-a-triangle-given-enough-infor.py,mathematics,trig,more,10,33,6,53,6,"if you are putting in a value you don't know put 0. Also, the program can't tell if it has enough information to fill out the triangle"
+is-a-calculator-for-the-pythagorean-theorem.py,mathematics,trig,more,1,7,2,5,4,
+finds-the-number-of-islands-in-a-graph.py,mathematics,discrete-graphs,more,13,35,7,21,15,
+deterimes-if-a-small-randomly-generated-graph-is-hamiltonia.py,mathematics,discrete-graphs,less,2,14,4,7,8,"Interesting, it used the library incorrectly. It's important to note that this is an np-complete problem, which is why the library has no implementation for it."
+finds-the-largest-cycle-in-a-graph.py,mathematics,discrete-graphs,more,4,14,2,4,4,
+generates-a-random-weighted-graph-and-use-dijkstra-s-algorit.py,mathematics,discrete-graphs,more,15,43,5,9,10,"It's correct, but it gives the largest int size as the distance when it cannot reach a certain node."
+is-is-calculator-that-will-return-the-equation-for-a-tangent.py,mathematics,calculus-calculators,less,2,15,3,10,7,It seems as though it is trying to differentiate a scalar. Perhaps someone more knowledgeable in sympy could understand what is going on.
+is-is-calculator-that-calculates-the-integral-of-an-equation.py,mathematics,calculus-calculators,more,3,15,0,0,5,
+is-is-calculator-that-calculates-the-derivative-of-an-equati.py,mathematics,calculus-calculators,more,2,9,1,2,5,
+is-a-class-that-represents-a-deck-of-cards-with-implemented.py,object-oriented,general,more,8,27,2,4,4,
+defines-a-class-which-has-at-least-two-methods-1-getstrin.py,object-oriented,general,more,5,13,1,2,0,
+is-a-flashcard-class-usable-in-other-scripts.py,object-oriented,general,more,7,24,1,2,1,
+is-a-stack-object-which-can-be-imported-and-used-in-other-py.py,object-oriented,general,more,9,17,2,3,0,
+is-a-class-that-might-represent-a-student-but-ensure-that-t.py,object-oriented,inheritance-polymorphism-encapsulization,more,6,19,0,0,5,
+is-a-set-of-classes-modeling-a-bank-account-with-withdraw-an.py,object-oriented,inheritance-polymorphism-encapsulization,more,13,34,5,10,0,
+is-three-classes-each-with-a-go-method-that-prints-the-cl.py,object-oriented,inheritance-polymorphism-encapsulization,less,5,18,1,2,5,"Works, but doesn't actually use polymorphism as described in the prompt"
+is-a-generic-implementation-of-the-state-design-pattern.py,object-oriented,patterns,more,10,24,2,4,5,It's impressive because it followed the actual design pattern as described by the pictures in the uml diagrams
+is-a-generic-class-that-implements-the-singleton-pattern-in.py,object-oriented,patterns,more,5,15,3,6,8,
+uses-the-builder-pattern-to-create-a-hamburger-object-out-of.py,object-oriented,patterns,more,18,51,0,0,2,
+is-an-implementation-of-the-factory-pattern-that-creates-sev.py,object-oriented,patterns,more,8,24,1,5,6,

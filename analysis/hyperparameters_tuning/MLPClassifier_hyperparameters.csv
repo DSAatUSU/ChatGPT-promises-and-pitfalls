@@ -1,0 +1,721 @@
+activation,alpha,early_stopping,hidden_layer_sizes,learning_rate,max_iter,solver,mean_test_score,std_test_score,rank_test_score
+tanh,0.0001,True,10,constant,100,newton-cg,,,172
+tanh,0.0001,True,10,constant,100,lbfgs,0.5333333333333334,0.053452248382484885,129
+tanh,0.0001,True,10,constant,100,liblinear,,,502
+tanh,0.0001,True,10,constant,100,sag,,,503
+tanh,0.0001,True,10,constant,100,saga,,,504
+tanh,0.0001,True,10,constant,200,newton-cg,,,505
+tanh,0.0001,True,10,constant,200,lbfgs,0.5380952380952382,0.04416008807378906,125
+tanh,0.0001,True,10,constant,200,liblinear,,,506
+tanh,0.0001,True,10,constant,200,sag,,,507
+tanh,0.0001,True,10,constant,200,saga,,,508
+tanh,0.0001,True,10,constant,300,newton-cg,,,510
+tanh,0.0001,True,10,constant,300,lbfgs,0.5571428571428572,0.05345224838248487,105
+tanh,0.0001,True,10,constant,300,liblinear,,,518
+tanh,0.0001,True,10,constant,300,sag,,,511
+tanh,0.0001,True,10,constant,300,saga,,,512
+tanh,0.0001,True,10,adaptive,100,newton-cg,,,513
+tanh,0.0001,True,10,adaptive,100,lbfgs,0.5333333333333334,0.053452248382484885,129
+tanh,0.0001,True,10,adaptive,100,liblinear,,,514
+tanh,0.0001,True,10,adaptive,100,sag,,,515
+tanh,0.0001,True,10,adaptive,100,saga,,,516
+tanh,0.0001,True,10,adaptive,200,newton-cg,,,517
+tanh,0.0001,True,10,adaptive,200,lbfgs,0.5380952380952382,0.04416008807378906,125
+tanh,0.0001,True,10,adaptive,200,liblinear,,,501
+tanh,0.0001,True,10,adaptive,200,sag,,,509
+tanh,0.0001,True,10,adaptive,200,saga,,,500
+tanh,0.0001,True,10,adaptive,300,newton-cg,,,489
+tanh,0.0001,True,10,adaptive,300,lbfgs,0.5571428571428572,0.05345224838248487,105
+tanh,0.0001,True,10,adaptive,300,liblinear,,,482
+tanh,0.0001,True,10,adaptive,300,sag,,,483
+tanh,0.0001,True,10,adaptive,300,saga,,,484
+tanh,0.0001,True,"(20, 20)",constant,100,newton-cg,,,485
+tanh,0.0001,True,"(20, 20)",constant,100,lbfgs,0.6142857142857142,0.07438333024673005,65
+tanh,0.0001,True,"(20, 20)",constant,100,liblinear,,,486
+tanh,0.0001,True,"(20, 20)",constant,100,sag,,,487
+tanh,0.0001,True,"(20, 20)",constant,100,saga,,,488
+tanh,0.0001,True,"(20, 20)",constant,200,newton-cg,,,490
+tanh,0.0001,True,"(20, 20)",constant,200,lbfgs,0.6190476190476191,0.054294067861863735,61
+tanh,0.0001,True,"(20, 20)",constant,200,liblinear,,,498
+tanh,0.0001,True,"(20, 20)",constant,200,sag,,,491
+tanh,0.0001,True,"(20, 20)",constant,200,saga,,,492
+tanh,0.0001,True,"(20, 20)",constant,300,newton-cg,,,493
+tanh,0.0001,True,"(20, 20)",constant,300,lbfgs,0.6380952380952382,0.05302632726504785,25
+tanh,0.0001,True,"(20, 20)",constant,300,liblinear,,,494
+tanh,0.0001,True,"(20, 20)",constant,300,sag,,,495
+tanh,0.0001,True,"(20, 20)",constant,300,saga,,,496
+tanh,0.0001,True,"(20, 20)",adaptive,100,newton-cg,,,497
+tanh,0.0001,True,"(20, 20)",adaptive,100,lbfgs,0.6142857142857142,0.07438333024673005,65
+tanh,0.0001,True,"(20, 20)",adaptive,100,liblinear,,,499
+tanh,0.0001,True,"(20, 20)",adaptive,100,sag,,,520
+tanh,0.0001,True,"(20, 20)",adaptive,100,saga,,,539
+tanh,0.0001,True,"(20, 20)",adaptive,200,newton-cg,,,521
+tanh,0.0001,True,"(20, 20)",adaptive,200,lbfgs,0.6190476190476191,0.054294067861863735,61
+tanh,0.0001,True,"(20, 20)",adaptive,200,liblinear,,,542
+tanh,0.0001,True,"(20, 20)",adaptive,200,sag,,,543
+tanh,0.0001,True,"(20, 20)",adaptive,200,saga,,,544
+tanh,0.0001,True,"(20, 20)",adaptive,300,newton-cg,,,545
+tanh,0.0001,True,"(20, 20)",adaptive,300,lbfgs,0.6380952380952382,0.05302632726504785,25
+tanh,0.0001,True,"(20, 20)",adaptive,300,liblinear,,,546
+tanh,0.0001,True,"(20, 20)",adaptive,300,sag,,,547
+tanh,0.0001,True,"(20, 20)",adaptive,300,saga,,,548
+tanh,0.0001,True,"(30, 30, 30)",constant,100,newton-cg,,,550
+tanh,0.0001,True,"(30, 30, 30)",constant,100,lbfgs,0.6476190476190476,0.10367400503370117,17
+tanh,0.0001,True,"(30, 30, 30)",constant,100,liblinear,,,558
+tanh,0.0001,True,"(30, 30, 30)",constant,100,sag,,,551
+tanh,0.0001,True,"(30, 30, 30)",constant,100,saga,,,552
+tanh,0.0001,True,"(30, 30, 30)",constant,200,newton-cg,,,553
+tanh,0.0001,True,"(30, 30, 30)",constant,200,lbfgs,0.6285714285714286,0.10497813183356479,53
+tanh,0.0001,True,"(30, 30, 30)",constant,200,liblinear,,,554
+tanh,0.0001,True,"(30, 30, 30)",constant,200,sag,,,555
+tanh,0.0001,True,"(30, 30, 30)",constant,200,saga,,,556
+tanh,0.0001,True,"(30, 30, 30)",constant,300,newton-cg,,,557
+tanh,0.0001,True,"(30, 30, 30)",constant,300,lbfgs,0.5952380952380952,0.10858813572372743,85
+tanh,0.0001,True,"(30, 30, 30)",constant,300,liblinear,,,541
+tanh,0.0001,True,"(30, 30, 30)",constant,300,sag,,,549
+tanh,0.0001,True,"(30, 30, 30)",constant,300,saga,,,540
+tanh,0.0001,True,"(30, 30, 30)",adaptive,100,newton-cg,,,529
+tanh,0.0001,True,"(30, 30, 30)",adaptive,100,lbfgs,0.6476190476190476,0.10367400503370117,17
+tanh,0.0001,True,"(30, 30, 30)",adaptive,100,liblinear,,,522
+tanh,0.0001,True,"(30, 30, 30)",adaptive,100,sag,,,523
+tanh,0.0001,True,"(30, 30, 30)",adaptive,100,saga,,,524
+tanh,0.0001,True,"(30, 30, 30)",adaptive,200,newton-cg,,,525
+tanh,0.0001,True,"(30, 30, 30)",adaptive,200,lbfgs,0.6285714285714286,0.10497813183356479,53
+tanh,0.0001,True,"(30, 30, 30)",adaptive,200,liblinear,,,526
+tanh,0.0001,True,"(30, 30, 30)",adaptive,200,sag,,,527
+tanh,0.0001,True,"(30, 30, 30)",adaptive,200,saga,,,528
+tanh,0.0001,True,"(30, 30, 30)",adaptive,300,newton-cg,,,530
+tanh,0.0001,True,"(30, 30, 30)",adaptive,300,lbfgs,0.5952380952380952,0.10858813572372743,85
+tanh,0.0001,True,"(30, 30, 30)",adaptive,300,liblinear,,,538
+tanh,0.0001,True,"(30, 30, 30)",adaptive,300,sag,,,531
+tanh,0.0001,True,"(30, 30, 30)",adaptive,300,saga,,,532
+tanh,0.0001,False,10,constant,100,newton-cg,,,533
+tanh,0.0001,False,10,constant,100,lbfgs,0.5333333333333334,0.053452248382484885,129
+tanh,0.0001,False,10,constant,100,liblinear,,,534
+tanh,0.0001,False,10,constant,100,sag,,,535
+tanh,0.0001,False,10,constant,100,saga,,,536
+tanh,0.0001,False,10,constant,200,newton-cg,,,537
+tanh,0.0001,False,10,constant,200,lbfgs,0.5380952380952382,0.04416008807378906,125
+tanh,0.0001,False,10,constant,200,liblinear,,,481
+tanh,0.0001,False,10,constant,200,sag,,,519
+tanh,0.0001,False,10,constant,200,saga,,,480
+tanh,0.0001,False,10,constant,300,newton-cg,,,439
+tanh,0.0001,False,10,constant,300,lbfgs,0.5571428571428572,0.05345224838248487,105
+tanh,0.0001,False,10,constant,300,liblinear,,,422
+tanh,0.0001,False,10,constant,300,sag,,,423
+tanh,0.0001,False,10,constant,300,saga,,,424
+tanh,0.0001,False,10,adaptive,100,newton-cg,,,425
+tanh,0.0001,False,10,adaptive,100,lbfgs,0.5333333333333334,0.053452248382484885,129
+tanh,0.0001,False,10,adaptive,100,liblinear,,,426
+tanh,0.0001,False,10,adaptive,100,sag,,,427
+tanh,0.0001,False,10,adaptive,100,saga,,,428
+tanh,0.0001,False,10,adaptive,200,newton-cg,,,430
+tanh,0.0001,False,10,adaptive,200,lbfgs,0.5380952380952382,0.04416008807378906,125
+tanh,0.0001,False,10,adaptive,200,liblinear,,,438
+tanh,0.0001,False,10,adaptive,200,sag,,,431
+tanh,0.0001,False,10,adaptive,200,saga,,,432
+tanh,0.0001,False,10,adaptive,300,newton-cg,,,433
+tanh,0.0001,False,10,adaptive,300,lbfgs,0.5571428571428572,0.05345224838248487,105
+tanh,0.0001,False,10,adaptive,300,liblinear,,,434
+tanh,0.0001,False,10,adaptive,300,sag,,,435
+tanh,0.0001,False,10,adaptive,300,saga,,,436
+tanh,0.0001,False,"(20, 20)",constant,100,newton-cg,,,437
+tanh,0.0001,False,"(20, 20)",constant,100,lbfgs,0.6142857142857142,0.07438333024673005,65
+tanh,0.0001,False,"(20, 20)",constant,100,liblinear,,,421
+tanh,0.0001,False,"(20, 20)",constant,100,sag,,,429
+tanh,0.0001,False,"(20, 20)",constant,100,saga,,,420
+tanh,0.0001,False,"(20, 20)",constant,200,newton-cg,,,409
+tanh,0.0001,False,"(20, 20)",constant,200,lbfgs,0.6190476190476191,0.054294067861863735,61
+tanh,0.0001,False,"(20, 20)",constant,200,liblinear,,,402
+tanh,0.0001,False,"(20, 20)",constant,200,sag,,,403
+tanh,0.0001,False,"(20, 20)",constant,200,saga,,,404
+tanh,0.0001,False,"(20, 20)",constant,300,newton-cg,,,405
+tanh,0.0001,False,"(20, 20)",constant,300,lbfgs,0.6380952380952382,0.05302632726504785,25
+tanh,0.0001,False,"(20, 20)",constant,300,liblinear,,,406
+tanh,0.0001,False,"(20, 20)",constant,300,sag,,,407
+tanh,0.0001,False,"(20, 20)",constant,300,saga,,,408
+tanh,0.0001,False,"(20, 20)",adaptive,100,newton-cg,,,410
+tanh,0.0001,False,"(20, 20)",adaptive,100,lbfgs,0.6142857142857142,0.07438333024673005,65
+tanh,0.0001,False,"(20, 20)",adaptive,100,liblinear,,,418
+tanh,0.0001,False,"(20, 20)",adaptive,100,sag,,,411
+tanh,0.0001,False,"(20, 20)",adaptive,100,saga,,,412
+tanh,0.0001,False,"(20, 20)",adaptive,200,newton-cg,,,413
+tanh,0.0001,False,"(20, 20)",adaptive,200,lbfgs,0.6190476190476191,0.054294067861863735,61
+tanh,0.0001,False,"(20, 20)",adaptive,200,liblinear,,,414
+tanh,0.0001,False,"(20, 20)",adaptive,200,sag,,,415
+tanh,0.0001,False,"(20, 20)",adaptive,200,saga,,,416
+tanh,0.0001,False,"(20, 20)",adaptive,300,newton-cg,,,417
+tanh,0.0001,False,"(20, 20)",adaptive,300,lbfgs,0.6380952380952382,0.05302632726504785,25
+tanh,0.0001,False,"(20, 20)",adaptive,300,liblinear,,,419
+tanh,0.0001,False,"(20, 20)",adaptive,300,sag,,,440
+tanh,0.0001,False,"(20, 20)",adaptive,300,saga,,,459
+tanh,0.0001,False,"(30, 30, 30)",constant,100,newton-cg,,,441
+tanh,0.0001,False,"(30, 30, 30)",constant,100,lbfgs,0.6476190476190476,0.10367400503370117,17
+tanh,0.0001,False,"(30, 30, 30)",constant,100,liblinear,,,462
+tanh,0.0001,False,"(30, 30, 30)",constant,100,sag,,,463
+tanh,0.0001,False,"(30, 30, 30)",constant,100,saga,,,464
+tanh,0.0001,False,"(30, 30, 30)",constant,200,newton-cg,,,465
+tanh,0.0001,False,"(30, 30, 30)",constant,200,lbfgs,0.6285714285714286,0.10497813183356479,53
+tanh,0.0001,False,"(30, 30, 30)",constant,200,liblinear,,,466
+tanh,0.0001,False,"(30, 30, 30)",constant,200,sag,,,467
+tanh,0.0001,False,"(30, 30, 30)",constant,200,saga,,,468
+tanh,0.0001,False,"(30, 30, 30)",constant,300,newton-cg,,,470
+tanh,0.0001,False,"(30, 30, 30)",constant,300,lbfgs,0.5952380952380952,0.10858813572372743,85
+tanh,0.0001,False,"(30, 30, 30)",constant,300,liblinear,,,478
+tanh,0.0001,False,"(30, 30, 30)",constant,300,sag,,,471
+tanh,0.0001,False,"(30, 30, 30)",constant,300,saga,,,472
+tanh,0.0001,False,"(30, 30, 30)",adaptive,100,newton-cg,,,473
+tanh,0.0001,False,"(30, 30, 30)",adaptive,100,lbfgs,0.6476190476190476,0.10367400503370117,17
+tanh,0.0001,False,"(30, 30, 30)",adaptive,100,liblinear,,,474
+tanh,0.0001,False,"(30, 30, 30)",adaptive,100,sag,,,475
+tanh,0.0001,False,"(30, 30, 30)",adaptive,100,saga,,,476
+tanh,0.0001,False,"(30, 30, 30)",adaptive,200,newton-cg,,,477
+tanh,0.0001,False,"(30, 30, 30)",adaptive,200,lbfgs,0.6285714285714286,0.10497813183356479,53
+tanh,0.0001,False,"(30, 30, 30)",adaptive,200,liblinear,,,461
+tanh,0.0001,False,"(30, 30, 30)",adaptive,200,sag,,,469
+tanh,0.0001,False,"(30, 30, 30)",adaptive,200,saga,,,460
+tanh,0.0001,False,"(30, 30, 30)",adaptive,300,newton-cg,,,449
+tanh,0.0001,False,"(30, 30, 30)",adaptive,300,lbfgs,0.5952380952380952,0.10858813572372743,85
+tanh,0.0001,False,"(30, 30, 30)",adaptive,300,liblinear,,,442
+tanh,0.0001,False,"(30, 30, 30)",adaptive,300,sag,,,443
+tanh,0.0001,False,"(30, 30, 30)",adaptive,300,saga,,,444
+tanh,0.05,True,10,constant,100,newton-cg,,,445
+tanh,0.05,True,10,constant,100,lbfgs,0.5238095238095238,0.026082026547865043,137
+tanh,0.05,True,10,constant,100,liblinear,,,446
+tanh,0.05,True,10,constant,100,sag,,,447
+tanh,0.05,True,10,constant,100,saga,,,448
+tanh,0.05,True,10,constant,200,newton-cg,,,450
+tanh,0.05,True,10,constant,200,lbfgs,0.5428571428571429,0.04856209060564558,121
+tanh,0.05,True,10,constant,200,liblinear,,,458
+tanh,0.05,True,10,constant,200,sag,,,451
+tanh,0.05,True,10,constant,200,saga,,,452
+tanh,0.05,True,10,constant,300,newton-cg,,,453
+tanh,0.05,True,10,constant,300,lbfgs,0.5761904761904761,0.08959470343917515,97
+tanh,0.05,True,10,constant,300,liblinear,,,454
+tanh,0.05,True,10,constant,300,sag,,,455
+tanh,0.05,True,10,constant,300,saga,,,456
+tanh,0.05,True,10,adaptive,100,newton-cg,,,457
+tanh,0.05,True,10,adaptive,100,lbfgs,0.5238095238095238,0.026082026547865043,137
+tanh,0.05,True,10,adaptive,100,liblinear,,,479
+tanh,0.05,True,10,adaptive,100,sag,,,559
+tanh,0.05,True,10,adaptive,100,saga,,,560
+tanh,0.05,True,10,adaptive,200,newton-cg,,,561
+tanh,0.05,True,10,adaptive,200,lbfgs,0.5428571428571429,0.04856209060564558,121
+tanh,0.05,True,10,adaptive,200,liblinear,,,662
+tanh,0.05,True,10,adaptive,200,sag,,,663
+tanh,0.05,True,10,adaptive,200,saga,,,664
+tanh,0.05,True,10,adaptive,300,newton-cg,,,665
+tanh,0.05,True,10,adaptive,300,lbfgs,0.5761904761904761,0.08959470343917515,97
+tanh,0.05,True,10,adaptive,300,liblinear,,,666
+tanh,0.05,True,10,adaptive,300,sag,,,667
+tanh,0.05,True,10,adaptive,300,saga,,,668
+tanh,0.05,True,"(20, 20)",constant,100,newton-cg,,,670
+tanh,0.05,True,"(20, 20)",constant,100,lbfgs,0.6333333333333333,0.10605265453009564,41
+tanh,0.05,True,"(20, 20)",constant,100,liblinear,,,678
+tanh,0.05,True,"(20, 20)",constant,100,sag,,,671
+tanh,0.05,True,"(20, 20)",constant,100,saga,,,672
+tanh,0.05,True,"(20, 20)",constant,200,newton-cg,,,673
+tanh,0.05,True,"(20, 20)",constant,200,lbfgs,0.6333333333333332,0.07619047619047617,49
+tanh,0.05,True,"(20, 20)",constant,200,liblinear,,,674
+tanh,0.05,True,"(20, 20)",constant,200,sag,,,675
+tanh,0.05,True,"(20, 20)",constant,200,saga,,,676
+tanh,0.05,True,"(20, 20)",constant,300,newton-cg,,,677
+tanh,0.05,True,"(20, 20)",constant,300,lbfgs,0.6095238095238095,0.08053111678708458,73
+tanh,0.05,True,"(20, 20)",constant,300,liblinear,,,661
+tanh,0.05,True,"(20, 20)",constant,300,sag,,,669
+tanh,0.05,True,"(20, 20)",constant,300,saga,,,660
+tanh,0.05,True,"(20, 20)",adaptive,100,newton-cg,,,649
+tanh,0.05,True,"(20, 20)",adaptive,100,lbfgs,0.6333333333333333,0.10605265453009564,41
+tanh,0.05,True,"(20, 20)",adaptive,100,liblinear,,,642
+tanh,0.05,True,"(20, 20)",adaptive,100,sag,,,643
+tanh,0.05,True,"(20, 20)",adaptive,100,saga,,,644
+tanh,0.05,True,"(20, 20)",adaptive,200,newton-cg,,,645
+tanh,0.05,True,"(20, 20)",adaptive,200,lbfgs,0.6333333333333332,0.07619047619047617,49
+tanh,0.05,True,"(20, 20)",adaptive,200,liblinear,,,646
+tanh,0.05,True,"(20, 20)",adaptive,200,sag,,,647
+tanh,0.05,True,"(20, 20)",adaptive,200,saga,,,648
+tanh,0.05,True,"(20, 20)",adaptive,300,newton-cg,,,650
+tanh,0.05,True,"(20, 20)",adaptive,300,lbfgs,0.6095238095238095,0.08053111678708458,73
+tanh,0.05,True,"(20, 20)",adaptive,300,liblinear,,,658
+tanh,0.05,True,"(20, 20)",adaptive,300,sag,,,651
+tanh,0.05,True,"(20, 20)",adaptive,300,saga,,,652
+tanh,0.05,True,"(30, 30, 30)",constant,100,newton-cg,,,653
+tanh,0.05,True,"(30, 30, 30)",constant,100,lbfgs,0.6333333333333334,0.10279539592820429,37
+tanh,0.05,True,"(30, 30, 30)",constant,100,liblinear,,,654
+tanh,0.05,True,"(30, 30, 30)",constant,100,sag,,,655
+tanh,0.05,True,"(30, 30, 30)",constant,100,saga,,,656
+tanh,0.05,True,"(30, 30, 30)",constant,200,newton-cg,,,657
+tanh,0.05,True,"(30, 30, 30)",constant,200,lbfgs,0.5904761904761905,0.11308897225750397,93
+tanh,0.05,True,"(30, 30, 30)",constant,200,liblinear,,,659
+tanh,0.05,True,"(30, 30, 30)",constant,200,sag,,,679
+tanh,0.05,True,"(30, 30, 30)",constant,200,saga,,,680
+tanh,0.05,True,"(30, 30, 30)",constant,300,newton-cg,,,681
+tanh,0.05,True,"(30, 30, 30)",constant,300,lbfgs,0.5952380952380952,0.09642122253007898,85
+tanh,0.05,True,"(30, 30, 30)",constant,300,liblinear,,,702
+tanh,0.05,True,"(30, 30, 30)",constant,300,sag,,,703
+tanh,0.05,True,"(30, 30, 30)",constant,300,saga,,,704
+tanh,0.05,True,"(30, 30, 30)",adaptive,100,newton-cg,,,705
+tanh,0.05,True,"(30, 30, 30)",adaptive,100,lbfgs,0.6333333333333334,0.10279539592820429,37
+tanh,0.05,True,"(30, 30, 30)",adaptive,100,liblinear,,,706
+tanh,0.05,True,"(30, 30, 30)",adaptive,100,sag,,,707
+tanh,0.05,True,"(30, 30, 30)",adaptive,100,saga,,,708
+tanh,0.05,True,"(30, 30, 30)",adaptive,200,newton-cg,,,709
+tanh,0.05,True,"(30, 30, 30)",adaptive,200,lbfgs,0.5904761904761905,0.11308897225750397,93
+tanh,0.05,True,"(30, 30, 30)",adaptive,200,liblinear,,,710
+tanh,0.05,True,"(30, 30, 30)",adaptive,200,sag,,,711
+tanh,0.05,True,"(30, 30, 30)",adaptive,200,saga,,,712
+tanh,0.05,True,"(30, 30, 30)",adaptive,300,newton-cg,,,713
+tanh,0.05,True,"(30, 30, 30)",adaptive,300,lbfgs,0.5952380952380952,0.09642122253007898,85
+tanh,0.05,True,"(30, 30, 30)",adaptive,300,liblinear,,,714
+tanh,0.05,True,"(30, 30, 30)",adaptive,300,sag,,,715
+tanh,0.05,True,"(30, 30, 30)",adaptive,300,saga,,,716
+tanh,0.05,False,10,constant,100,newton-cg,,,717
+tanh,0.05,False,10,constant,100,lbfgs,0.5238095238095238,0.026082026547865043,137
+tanh,0.05,False,10,constant,100,liblinear,,,718
+tanh,0.05,False,10,constant,100,sag,,,701
+tanh,0.05,False,10,constant,100,saga,,,700
+tanh,0.05,False,10,constant,200,newton-cg,,,699
+tanh,0.05,False,10,constant,200,lbfgs,0.5428571428571429,0.04856209060564558,121
+tanh,0.05,False,10,constant,200,liblinear,,,689
+tanh,0.05,False,10,constant,200,sag,,,682
+tanh,0.05,False,10,constant,200,saga,,,683
+tanh,0.05,False,10,constant,300,newton-cg,,,684
+tanh,0.05,False,10,constant,300,lbfgs,0.5761904761904761,0.08959470343917515,97
+tanh,0.05,False,10,constant,300,liblinear,,,685
+tanh,0.05,False,10,constant,300,sag,,,686
+tanh,0.05,False,10,constant,300,saga,,,687
+tanh,0.05,False,10,adaptive,100,newton-cg,,,688
+tanh,0.05,False,10,adaptive,100,lbfgs,0.5238095238095238,0.026082026547865043,137
+tanh,0.05,False,10,adaptive,100,liblinear,,,690
+tanh,0.05,False,10,adaptive,100,sag,,,698
+tanh,0.05,False,10,adaptive,100,saga,,,691
+tanh,0.05,False,10,adaptive,200,newton-cg,,,692
+tanh,0.05,False,10,adaptive,200,lbfgs,0.5428571428571429,0.04856209060564558,121
+tanh,0.05,False,10,adaptive,200,liblinear,,,693
+tanh,0.05,False,10,adaptive,200,sag,,,694
+tanh,0.05,False,10,adaptive,200,saga,,,695
+tanh,0.05,False,10,adaptive,300,newton-cg,,,696
+tanh,0.05,False,10,adaptive,300,lbfgs,0.5761904761904761,0.08959470343917515,97
+tanh,0.05,False,10,adaptive,300,liblinear,,,697
+tanh,0.05,False,10,adaptive,300,sag,,,641
+tanh,0.05,False,10,adaptive,300,saga,,,640
+tanh,0.05,False,"(20, 20)",constant,100,newton-cg,,,639
+tanh,0.05,False,"(20, 20)",constant,100,lbfgs,0.6333333333333333,0.10605265453009564,41
+tanh,0.05,False,"(20, 20)",constant,100,liblinear,,,599
+tanh,0.05,False,"(20, 20)",constant,100,sag,,,582
+tanh,0.05,False,"(20, 20)",constant,100,saga,,,583
+tanh,0.05,False,"(20, 20)",constant,200,newton-cg,,,584
+tanh,0.05,False,"(20, 20)",constant,200,lbfgs,0.6333333333333332,0.07619047619047617,49
+tanh,0.05,False,"(20, 20)",constant,200,liblinear,,,585
+tanh,0.05,False,"(20, 20)",constant,200,sag,,,586
+tanh,0.05,False,"(20, 20)",constant,200,saga,,,587
+tanh,0.05,False,"(20, 20)",constant,300,newton-cg,,,588
+tanh,0.05,False,"(20, 20)",constant,300,lbfgs,0.6095238095238095,0.08053111678708458,73
+tanh,0.05,False,"(20, 20)",constant,300,liblinear,,,590
+tanh,0.05,False,"(20, 20)",constant,300,sag,,,598
+tanh,0.05,False,"(20, 20)",constant,300,saga,,,591
+tanh,0.05,False,"(20, 20)",adaptive,100,newton-cg,,,592
+tanh,0.05,False,"(20, 20)",adaptive,100,lbfgs,0.6333333333333333,0.10605265453009564,41
+tanh,0.05,False,"(20, 20)",adaptive,100,liblinear,,,593
+tanh,0.05,False,"(20, 20)",adaptive,100,sag,,,594
+tanh,0.05,False,"(20, 20)",adaptive,100,saga,,,595
+tanh,0.05,False,"(20, 20)",adaptive,200,newton-cg,,,596
+tanh,0.05,False,"(20, 20)",adaptive,200,lbfgs,0.6333333333333332,0.07619047619047617,49
+tanh,0.05,False,"(20, 20)",adaptive,200,liblinear,,,597
+tanh,0.05,False,"(20, 20)",adaptive,200,sag,,,581
+tanh,0.05,False,"(20, 20)",adaptive,200,saga,,,589
+tanh,0.05,False,"(20, 20)",adaptive,300,newton-cg,,,580
+tanh,0.05,False,"(20, 20)",adaptive,300,lbfgs,0.6095238095238095,0.08053111678708458,73
+tanh,0.05,False,"(20, 20)",adaptive,300,liblinear,,,569
+tanh,0.05,False,"(20, 20)",adaptive,300,sag,,,562
+tanh,0.05,False,"(20, 20)",adaptive,300,saga,,,563
+tanh,0.05,False,"(30, 30, 30)",constant,100,newton-cg,,,564
+tanh,0.05,False,"(30, 30, 30)",constant,100,lbfgs,0.6333333333333334,0.10279539592820429,37
+tanh,0.05,False,"(30, 30, 30)",constant,100,liblinear,,,565
+tanh,0.05,False,"(30, 30, 30)",constant,100,sag,,,566
+tanh,0.05,False,"(30, 30, 30)",constant,100,saga,,,567
+tanh,0.05,False,"(30, 30, 30)",constant,200,newton-cg,,,568
+tanh,0.05,False,"(30, 30, 30)",constant,200,lbfgs,0.5904761904761905,0.11308897225750397,93
+tanh,0.05,False,"(30, 30, 30)",constant,200,liblinear,,,570
+tanh,0.05,False,"(30, 30, 30)",constant,200,sag,,,578
+tanh,0.05,False,"(30, 30, 30)",constant,200,saga,,,571
+tanh,0.05,False,"(30, 30, 30)",constant,300,newton-cg,,,572
+tanh,0.05,False,"(30, 30, 30)",constant,300,lbfgs,0.5952380952380952,0.09642122253007898,85
+tanh,0.05,False,"(30, 30, 30)",constant,300,liblinear,,,573
+tanh,0.05,False,"(30, 30, 30)",constant,300,sag,,,574
+tanh,0.05,False,"(30, 30, 30)",constant,300,saga,,,575
+tanh,0.05,False,"(30, 30, 30)",adaptive,100,newton-cg,,,576
+tanh,0.05,False,"(30, 30, 30)",adaptive,100,lbfgs,0.6333333333333334,0.10279539592820429,37
+tanh,0.05,False,"(30, 30, 30)",adaptive,100,liblinear,,,577
+tanh,0.05,False,"(30, 30, 30)",adaptive,100,sag,,,579
+tanh,0.05,False,"(30, 30, 30)",adaptive,100,saga,,,600
+tanh,0.05,False,"(30, 30, 30)",adaptive,200,newton-cg,,,619
+tanh,0.05,False,"(30, 30, 30)",adaptive,200,lbfgs,0.5904761904761905,0.11308897225750397,93
+tanh,0.05,False,"(30, 30, 30)",adaptive,200,liblinear,,,601
+tanh,0.05,False,"(30, 30, 30)",adaptive,200,sag,,,622
+tanh,0.05,False,"(30, 30, 30)",adaptive,200,saga,,,623
+tanh,0.05,False,"(30, 30, 30)",adaptive,300,newton-cg,,,624
+tanh,0.05,False,"(30, 30, 30)",adaptive,300,lbfgs,0.5952380952380952,0.09642122253007898,85
+tanh,0.05,False,"(30, 30, 30)",adaptive,300,liblinear,,,625
+tanh,0.05,False,"(30, 30, 30)",adaptive,300,sag,,,626
+tanh,0.05,False,"(30, 30, 30)",adaptive,300,saga,,,400
+relu,0.0001,True,10,constant,100,newton-cg,,,628
+relu,0.0001,True,10,constant,100,lbfgs,0.5142857142857143,0.04902681019517619,141
+relu,0.0001,True,10,constant,100,liblinear,,,630
+relu,0.0001,True,10,constant,100,sag,,,638
+relu,0.0001,True,10,constant,100,saga,,,631
+relu,0.0001,True,10,constant,200,newton-cg,,,632
+relu,0.0001,True,10,constant,200,lbfgs,0.5523809523809524,0.07284313590846835,113
+relu,0.0001,True,10,constant,200,liblinear,,,633
+relu,0.0001,True,10,constant,200,sag,,,634
+relu,0.0001,True,10,constant,200,saga,,,635
+relu,0.0001,True,10,constant,300,newton-cg,,,636
+relu,0.0001,True,10,constant,300,lbfgs,0.5571428571428572,0.09233675918888248,105
+relu,0.0001,True,10,constant,300,liblinear,,,637
+relu,0.0001,True,10,constant,300,sag,,,621
+relu,0.0001,True,10,constant,300,saga,,,629
+relu,0.0001,True,10,adaptive,100,newton-cg,,,620
+relu,0.0001,True,10,adaptive,100,lbfgs,0.5142857142857143,0.04902681019517619,141
+relu,0.0001,True,10,adaptive,100,liblinear,,,609
+relu,0.0001,True,10,adaptive,100,sag,,,602
+relu,0.0001,True,10,adaptive,100,saga,,,603
+relu,0.0001,True,10,adaptive,200,newton-cg,,,604
+relu,0.0001,True,10,adaptive,200,lbfgs,0.5523809523809524,0.07284313590846835,113
+relu,0.0001,True,10,adaptive,200,liblinear,,,605
+relu,0.0001,True,10,adaptive,200,sag,,,606
+relu,0.0001,True,10,adaptive,200,saga,,,607
+relu,0.0001,True,10,adaptive,300,newton-cg,,,608
+relu,0.0001,True,10,adaptive,300,lbfgs,0.5571428571428572,0.09233675918888248,105
+relu,0.0001,True,10,adaptive,300,liblinear,,,610
+relu,0.0001,True,10,adaptive,300,sag,,,618
+relu,0.0001,True,10,adaptive,300,saga,,,611
+relu,0.0001,True,"(20, 20)",constant,100,newton-cg,,,612
+relu,0.0001,True,"(20, 20)",constant,100,lbfgs,0.6095238095238095,0.0982846068597633,73
+relu,0.0001,True,"(20, 20)",constant,100,liblinear,,,613
+relu,0.0001,True,"(20, 20)",constant,100,sag,,,614
+relu,0.0001,True,"(20, 20)",constant,100,saga,,,615
+relu,0.0001,True,"(20, 20)",constant,200,newton-cg,,,616
+relu,0.0001,True,"(20, 20)",constant,200,lbfgs,0.6523809523809523,0.08984743935292006,13
+relu,0.0001,True,"(20, 20)",constant,200,liblinear,,,617
+relu,0.0001,True,"(20, 20)",constant,200,sag,,,401
+relu,0.0001,True,"(20, 20)",constant,200,saga,,,719
+relu,0.0001,True,"(20, 20)",constant,300,newton-cg,,,399
+relu,0.0001,True,"(20, 20)",constant,300,lbfgs,0.6952380952380952,0.07737179432986628,1
+relu,0.0001,True,"(20, 20)",constant,300,liblinear,,,192
+relu,0.0001,True,"(20, 20)",constant,300,sag,,,193
+relu,0.0001,True,"(20, 20)",constant,300,saga,,,194
+relu,0.0001,True,"(20, 20)",adaptive,100,newton-cg,,,195
+relu,0.0001,True,"(20, 20)",adaptive,100,lbfgs,0.6095238095238095,0.0982846068597633,73
+relu,0.0001,True,"(20, 20)",adaptive,100,liblinear,,,196
+relu,0.0001,True,"(20, 20)",adaptive,100,sag,,,197
+relu,0.0001,True,"(20, 20)",adaptive,100,saga,,,199
+relu,0.0001,True,"(20, 20)",adaptive,200,newton-cg,,,206
+relu,0.0001,True,"(20, 20)",adaptive,200,lbfgs,0.6523809523809523,0.08984743935292006,13
+relu,0.0001,True,"(20, 20)",adaptive,200,liblinear,,,200
+relu,0.0001,True,"(20, 20)",adaptive,200,sag,,,201
+relu,0.0001,True,"(20, 20)",adaptive,200,saga,,,202
+relu,0.0001,True,"(20, 20)",adaptive,300,newton-cg,,,203
+relu,0.0001,True,"(20, 20)",adaptive,300,lbfgs,0.6952380952380952,0.07737179432986628,1
+relu,0.0001,True,"(20, 20)",adaptive,300,liblinear,,,204
+relu,0.0001,True,"(20, 20)",adaptive,300,sag,,,205
+relu,0.0001,True,"(20, 20)",adaptive,300,saga,,,191
+relu,0.0001,True,"(30, 30, 30)",constant,100,newton-cg,,,198
+relu,0.0001,True,"(30, 30, 30)",constant,100,lbfgs,0.6047619047619047,0.0885765487511346,81
+relu,0.0001,True,"(30, 30, 30)",constant,100,liblinear,,,190
+relu,0.0001,True,"(30, 30, 30)",constant,100,sag,,,180
+relu,0.0001,True,"(30, 30, 30)",constant,100,saga,,,174
+relu,0.0001,True,"(30, 30, 30)",constant,200,newton-cg,,,175
+relu,0.0001,True,"(30, 30, 30)",constant,200,lbfgs,0.6523809523809524,0.08984743935292001,9
+relu,0.0001,True,"(30, 30, 30)",constant,200,liblinear,,,176
+relu,0.0001,True,"(30, 30, 30)",constant,200,sag,,,177
+relu,0.0001,True,"(30, 30, 30)",constant,200,saga,,,178
+relu,0.0001,True,"(30, 30, 30)",constant,300,newton-cg,,,179
+relu,0.0001,True,"(30, 30, 30)",constant,300,lbfgs,0.6333333333333333,0.09233675918888246,41
+relu,0.0001,True,"(30, 30, 30)",constant,300,liblinear,,,181
+relu,0.0001,True,"(30, 30, 30)",constant,300,sag,,,188
+relu,0.0001,True,"(30, 30, 30)",constant,300,saga,,,182
+relu,0.0001,True,"(30, 30, 30)",adaptive,100,newton-cg,,,183
+relu,0.0001,True,"(30, 30, 30)",adaptive,100,lbfgs,0.6047619047619047,0.0885765487511346,81
+relu,0.0001,True,"(30, 30, 30)",adaptive,100,liblinear,,,184
+relu,0.0001,True,"(30, 30, 30)",adaptive,100,sag,,,185
+relu,0.0001,True,"(30, 30, 30)",adaptive,100,saga,,,186
+relu,0.0001,True,"(30, 30, 30)",adaptive,200,newton-cg,,,187
+relu,0.0001,True,"(30, 30, 30)",adaptive,200,lbfgs,0.6523809523809524,0.08984743935292001,9
+relu,0.0001,True,"(30, 30, 30)",adaptive,200,liblinear,,,189
+relu,0.0001,True,"(30, 30, 30)",adaptive,200,sag,,,208
+relu,0.0001,True,"(30, 30, 30)",adaptive,200,saga,,,225
+relu,0.0001,True,"(30, 30, 30)",adaptive,300,newton-cg,,,209
+relu,0.0001,True,"(30, 30, 30)",adaptive,300,lbfgs,0.6333333333333333,0.09233675918888246,41
+relu,0.0001,True,"(30, 30, 30)",adaptive,300,liblinear,,,228
+relu,0.0001,True,"(30, 30, 30)",adaptive,300,sag,,,229
+relu,0.0001,True,"(30, 30, 30)",adaptive,300,saga,,,230
+relu,0.0001,False,10,constant,100,newton-cg,,,231
+relu,0.0001,False,10,constant,100,lbfgs,0.5142857142857143,0.04902681019517619,141
+relu,0.0001,False,10,constant,100,liblinear,,,232
+relu,0.0001,False,10,constant,100,sag,,,233
+relu,0.0001,False,10,constant,100,saga,,,235
+relu,0.0001,False,10,constant,200,newton-cg,,,242
+relu,0.0001,False,10,constant,200,lbfgs,0.5523809523809524,0.07284313590846835,113
+relu,0.0001,False,10,constant,200,liblinear,,,236
+relu,0.0001,False,10,constant,200,sag,,,237
+relu,0.0001,False,10,constant,200,saga,,,238
+relu,0.0001,False,10,constant,300,newton-cg,,,239
+relu,0.0001,False,10,constant,300,lbfgs,0.5571428571428572,0.09233675918888248,105
+relu,0.0001,False,10,constant,300,liblinear,,,240
+relu,0.0001,False,10,constant,300,sag,,,241
+relu,0.0001,False,10,constant,300,saga,,,227
+relu,0.0001,False,10,adaptive,100,newton-cg,,,234
+relu,0.0001,False,10,adaptive,100,lbfgs,0.5142857142857143,0.04902681019517619,141
+relu,0.0001,False,10,adaptive,100,liblinear,,,226
+relu,0.0001,False,10,adaptive,100,sag,,,216
+relu,0.0001,False,10,adaptive,100,saga,,,210
+relu,0.0001,False,10,adaptive,200,newton-cg,,,211
+relu,0.0001,False,10,adaptive,200,lbfgs,0.5523809523809524,0.07284313590846835,113
+relu,0.0001,False,10,adaptive,200,liblinear,,,212
+relu,0.0001,False,10,adaptive,200,sag,,,213
+relu,0.0001,False,10,adaptive,200,saga,,,214
+relu,0.0001,False,10,adaptive,300,newton-cg,,,215
+relu,0.0001,False,10,adaptive,300,lbfgs,0.5571428571428572,0.09233675918888248,105
+relu,0.0001,False,10,adaptive,300,liblinear,,,217
+relu,0.0001,False,10,adaptive,300,sag,,,224
+relu,0.0001,False,10,adaptive,300,saga,,,218
+relu,0.0001,False,"(20, 20)",constant,100,newton-cg,,,219
+relu,0.0001,False,"(20, 20)",constant,100,lbfgs,0.6095238095238095,0.0982846068597633,73
+relu,0.0001,False,"(20, 20)",constant,100,liblinear,,,220
+relu,0.0001,False,"(20, 20)",constant,100,sag,,,221
+relu,0.0001,False,"(20, 20)",constant,100,saga,,,222
+relu,0.0001,False,"(20, 20)",constant,200,newton-cg,,,223
+relu,0.0001,False,"(20, 20)",constant,200,lbfgs,0.6523809523809523,0.08984743935292006,13
+relu,0.0001,False,"(20, 20)",constant,200,liblinear,,,173
+relu,0.0001,False,"(20, 20)",constant,200,sag,,,207
+relu,0.0001,False,"(20, 20)",constant,200,saga,,,148
+relu,0.0001,False,"(20, 20)",constant,300,newton-cg,,,147
+relu,0.0001,False,"(20, 20)",constant,300,lbfgs,0.6952380952380952,0.07737179432986628,1
+relu,0.0001,False,"(20, 20)",constant,300,liblinear,,,170
+relu,0.0001,False,"(20, 20)",constant,300,sag,,,168
+relu,0.0001,False,"(20, 20)",constant,300,saga,,,167
+relu,0.0001,False,"(20, 20)",adaptive,100,newton-cg,,,164
+relu,0.0001,False,"(20, 20)",adaptive,100,lbfgs,0.6095238095238095,0.0982846068597633,73
+relu,0.0001,False,"(20, 20)",adaptive,100,liblinear,,,163
+relu,0.0001,False,"(20, 20)",adaptive,100,sag,,,158
+relu,0.0001,False,"(20, 20)",adaptive,100,saga,,,157
+relu,0.0001,False,"(20, 20)",adaptive,200,newton-cg,,,156
+relu,0.0001,False,"(20, 20)",adaptive,200,lbfgs,0.6523809523809523,0.08984743935292006,13
+relu,0.0001,False,"(20, 20)",adaptive,200,liblinear,,,145
+relu,0.0001,False,"(20, 20)",adaptive,200,sag,,,160
+relu,0.0001,False,"(20, 20)",adaptive,200,saga,,,161
+relu,0.0001,False,"(20, 20)",adaptive,300,newton-cg,,,153
+relu,0.0001,False,"(20, 20)",adaptive,300,lbfgs,0.6952380952380952,0.07737179432986628,1
+relu,0.0001,False,"(20, 20)",adaptive,300,liblinear,,,146
+relu,0.0001,False,"(20, 20)",adaptive,300,sag,,,150
+relu,0.0001,False,"(20, 20)",adaptive,300,saga,,,171
+relu,0.0001,False,"(30, 30, 30)",constant,100,newton-cg,,,151
+relu,0.0001,False,"(30, 30, 30)",constant,100,lbfgs,0.6047619047619047,0.0885765487511346,81
+relu,0.0001,False,"(30, 30, 30)",constant,100,liblinear,,,152
+relu,0.0001,False,"(30, 30, 30)",constant,100,sag,,,154
+relu,0.0001,False,"(30, 30, 30)",constant,100,saga,,,155
+relu,0.0001,False,"(30, 30, 30)",constant,200,newton-cg,,,159
+relu,0.0001,False,"(30, 30, 30)",constant,200,lbfgs,0.6523809523809524,0.08984743935292001,9
+relu,0.0001,False,"(30, 30, 30)",constant,200,liblinear,,,162
+relu,0.0001,False,"(30, 30, 30)",constant,200,sag,,,165
+relu,0.0001,False,"(30, 30, 30)",constant,200,saga,,,166
+relu,0.0001,False,"(30, 30, 30)",constant,300,newton-cg,,,169
+relu,0.0001,False,"(30, 30, 30)",constant,300,lbfgs,0.6333333333333333,0.09233675918888246,41
+relu,0.0001,False,"(30, 30, 30)",constant,300,liblinear,,,149
+relu,0.0001,False,"(30, 30, 30)",constant,300,sag,,,243
+relu,0.0001,False,"(30, 30, 30)",constant,300,saga,,,321
+relu,0.0001,False,"(30, 30, 30)",adaptive,100,newton-cg,,,245
+relu,0.0001,False,"(30, 30, 30)",adaptive,100,lbfgs,0.6047619047619047,0.0885765487511346,81
+relu,0.0001,False,"(30, 30, 30)",adaptive,100,liblinear,,,343
+relu,0.0001,False,"(30, 30, 30)",adaptive,100,sag,,,344
+relu,0.0001,False,"(30, 30, 30)",adaptive,100,saga,,,345
+relu,0.0001,False,"(30, 30, 30)",adaptive,200,newton-cg,,,346
+relu,0.0001,False,"(30, 30, 30)",adaptive,200,lbfgs,0.6523809523809524,0.08984743935292001,9
+relu,0.0001,False,"(30, 30, 30)",adaptive,200,liblinear,,,347
+relu,0.0001,False,"(30, 30, 30)",adaptive,200,sag,,,348
+relu,0.0001,False,"(30, 30, 30)",adaptive,200,saga,,,349
+relu,0.0001,False,"(30, 30, 30)",adaptive,300,newton-cg,,,351
+relu,0.0001,False,"(30, 30, 30)",adaptive,300,lbfgs,0.6333333333333333,0.09233675918888246,41
+relu,0.0001,False,"(30, 30, 30)",adaptive,300,liblinear,,,359
+relu,0.0001,False,"(30, 30, 30)",adaptive,300,sag,,,352
+relu,0.0001,False,"(30, 30, 30)",adaptive,300,saga,,,353
+relu,0.05,True,10,constant,100,newton-cg,,,354
+relu,0.05,True,10,constant,100,lbfgs,0.5333333333333332,0.03563483225498991,133
+relu,0.05,True,10,constant,100,liblinear,,,355
+relu,0.05,True,10,constant,100,sag,,,356
+relu,0.05,True,10,constant,100,saga,,,357
+relu,0.05,True,10,constant,200,newton-cg,,,358
+relu,0.05,True,10,constant,200,lbfgs,0.5666666666666667,0.07438333024673005,101
+relu,0.05,True,10,constant,200,liblinear,,,342
+relu,0.05,True,10,constant,200,sag,,,341
+relu,0.05,True,10,constant,200,saga,,,340
+relu,0.05,True,10,constant,300,newton-cg,,,339
+relu,0.05,True,10,constant,300,lbfgs,0.5523809523809524,0.07284313590846835,113
+relu,0.05,True,10,constant,300,liblinear,,,324
+relu,0.05,True,10,constant,300,sag,,,325
+relu,0.05,True,10,constant,300,saga,,,326
+relu,0.05,True,10,adaptive,100,newton-cg,,,327
+relu,0.05,True,10,adaptive,100,lbfgs,0.5333333333333332,0.03563483225498991,133
+relu,0.05,True,10,adaptive,100,liblinear,,,328
+relu,0.05,True,10,adaptive,100,sag,,,329
+relu,0.05,True,10,adaptive,100,saga,,,244
+relu,0.05,True,10,adaptive,200,newton-cg,,,330
+relu,0.05,True,10,adaptive,200,lbfgs,0.5666666666666667,0.07438333024673005,101
+relu,0.05,True,10,adaptive,200,liblinear,,,331
+relu,0.05,True,10,adaptive,200,sag,,,332
+relu,0.05,True,10,adaptive,200,saga,,,333
+relu,0.05,True,10,adaptive,300,newton-cg,,,334
+relu,0.05,True,10,adaptive,300,lbfgs,0.5523809523809524,0.07284313590846835,113
+relu,0.05,True,10,adaptive,300,liblinear,,,335
+relu,0.05,True,10,adaptive,300,sag,,,336
+relu,0.05,True,10,adaptive,300,saga,,,337
+relu,0.05,True,"(20, 20)",constant,100,newton-cg,,,338
+relu,0.05,True,"(20, 20)",constant,100,lbfgs,0.6428571428571429,0.12325884862423604,21
+relu,0.05,True,"(20, 20)",constant,100,liblinear,,,350
+relu,0.05,True,"(20, 20)",constant,100,sag,,,361
+relu,0.05,True,"(20, 20)",constant,100,saga,,,389
+relu,0.05,True,"(20, 20)",constant,200,newton-cg,,,362
+relu,0.05,True,"(20, 20)",constant,200,lbfgs,0.680952380952381,0.08728715609439695,5
+relu,0.05,True,"(20, 20)",constant,200,liblinear,,,382
+relu,0.05,True,"(20, 20)",constant,200,sag,,,383
+relu,0.05,True,"(20, 20)",constant,200,saga,,,384
+relu,0.05,True,"(20, 20)",constant,300,newton-cg,,,385
+relu,0.05,True,"(20, 20)",constant,300,lbfgs,0.638095238095238,0.04616837959444124,33
+relu,0.05,True,"(20, 20)",constant,300,liblinear,,,386
+relu,0.05,True,"(20, 20)",constant,300,sag,,,387
+relu,0.05,True,"(20, 20)",constant,300,saga,,,388
+relu,0.05,True,"(20, 20)",adaptive,100,newton-cg,,,390
+relu,0.05,True,"(20, 20)",adaptive,100,lbfgs,0.6428571428571429,0.12325884862423604,21
+relu,0.05,True,"(20, 20)",adaptive,100,liblinear,,,398
+relu,0.05,True,"(20, 20)",adaptive,100,sag,,,391
+relu,0.05,True,"(20, 20)",adaptive,100,saga,,,392
+relu,0.05,True,"(20, 20)",adaptive,200,newton-cg,,,393
+relu,0.05,True,"(20, 20)",adaptive,200,lbfgs,0.680952380952381,0.08728715609439695,5
+relu,0.05,True,"(20, 20)",adaptive,200,liblinear,,,394
+relu,0.05,True,"(20, 20)",adaptive,200,sag,,,395
+relu,0.05,True,"(20, 20)",adaptive,200,saga,,,396
+relu,0.05,True,"(20, 20)",adaptive,300,newton-cg,,,397
+relu,0.05,True,"(20, 20)",adaptive,300,lbfgs,0.638095238095238,0.04616837959444124,33
+relu,0.05,True,"(20, 20)",adaptive,300,liblinear,,,381
+relu,0.05,True,"(20, 20)",adaptive,300,sag,,,380
+relu,0.05,True,"(20, 20)",adaptive,300,saga,,,379
+relu,0.05,True,"(30, 30, 30)",constant,100,newton-cg,,,378
+relu,0.05,True,"(30, 30, 30)",constant,100,lbfgs,0.6142857142857142,0.05909368402852789,65
+relu,0.05,True,"(30, 30, 30)",constant,100,liblinear,,,363
+relu,0.05,True,"(30, 30, 30)",constant,100,sag,,,364
+relu,0.05,True,"(30, 30, 30)",constant,100,saga,,,365
+relu,0.05,True,"(30, 30, 30)",constant,200,newton-cg,,,366
+relu,0.05,True,"(30, 30, 30)",constant,200,lbfgs,0.6285714285714286,0.07158712561129957,53
+relu,0.05,True,"(30, 30, 30)",constant,200,liblinear,,,367
+relu,0.05,True,"(30, 30, 30)",constant,200,sag,,,368
+relu,0.05,True,"(30, 30, 30)",constant,200,saga,,,369
+relu,0.05,True,"(30, 30, 30)",constant,300,newton-cg,,,370
+relu,0.05,True,"(30, 30, 30)",constant,300,lbfgs,0.6380952380952382,0.06966066113489426,25
+relu,0.05,True,"(30, 30, 30)",constant,300,liblinear,,,371
+relu,0.05,True,"(30, 30, 30)",constant,300,sag,,,372
+relu,0.05,True,"(30, 30, 30)",constant,300,saga,,,373
+relu,0.05,True,"(30, 30, 30)",adaptive,100,newton-cg,,,374
+relu,0.05,True,"(30, 30, 30)",adaptive,100,lbfgs,0.6142857142857142,0.05909368402852789,65
+relu,0.05,True,"(30, 30, 30)",adaptive,100,liblinear,,,375
+relu,0.05,True,"(30, 30, 30)",adaptive,100,sag,,,376
+relu,0.05,True,"(30, 30, 30)",adaptive,100,saga,,,377
+relu,0.05,True,"(30, 30, 30)",adaptive,200,newton-cg,,,323
+relu,0.05,True,"(30, 30, 30)",adaptive,200,lbfgs,0.6285714285714286,0.07158712561129957,53
+relu,0.05,True,"(30, 30, 30)",adaptive,200,liblinear,,,360
+relu,0.05,True,"(30, 30, 30)",adaptive,200,sag,,,322
+relu,0.05,True,"(30, 30, 30)",adaptive,200,saga,,,282
+relu,0.05,True,"(30, 30, 30)",adaptive,300,newton-cg,,,265
+relu,0.05,True,"(30, 30, 30)",adaptive,300,lbfgs,0.6380952380952382,0.06966066113489426,25
+relu,0.05,True,"(30, 30, 30)",adaptive,300,liblinear,,,266
+relu,0.05,True,"(30, 30, 30)",adaptive,300,sag,,,267
+relu,0.05,True,"(30, 30, 30)",adaptive,300,saga,,,268
+relu,0.05,False,10,constant,100,newton-cg,,,269
+relu,0.05,False,10,constant,100,lbfgs,0.5333333333333332,0.03563483225498991,133
+relu,0.05,False,10,constant,100,liblinear,,,270
+relu,0.05,False,10,constant,100,sag,,,271
+relu,0.05,False,10,constant,100,saga,,,273
+relu,0.05,False,10,constant,200,newton-cg,,,281
+relu,0.05,False,10,constant,200,lbfgs,0.5666666666666667,0.07438333024673005,101
+relu,0.05,False,10,constant,200,liblinear,,,274
+relu,0.05,False,10,constant,200,sag,,,275
+relu,0.05,False,10,constant,200,saga,,,276
+relu,0.05,False,10,constant,300,newton-cg,,,277
+relu,0.05,False,10,constant,300,lbfgs,0.5523809523809524,0.07284313590846835,113
+relu,0.05,False,10,constant,300,liblinear,,,278
+relu,0.05,False,10,constant,300,sag,,,279
+relu,0.05,False,10,constant,300,saga,,,280
+relu,0.05,False,10,adaptive,100,newton-cg,,,264
+relu,0.05,False,10,adaptive,100,lbfgs,0.5333333333333332,0.03563483225498991,133
+relu,0.05,False,10,adaptive,100,liblinear,,,263
+relu,0.05,False,10,adaptive,100,sag,,,262
+relu,0.05,False,10,adaptive,100,saga,,,261
+relu,0.05,False,10,adaptive,200,newton-cg,,,246
+relu,0.05,False,10,adaptive,200,lbfgs,0.5666666666666667,0.07438333024673005,101
+relu,0.05,False,10,adaptive,200,liblinear,,,247
+relu,0.05,False,10,adaptive,200,sag,,,248
+relu,0.05,False,10,adaptive,200,saga,,,249
+relu,0.05,False,10,adaptive,300,newton-cg,,,250
+relu,0.05,False,10,adaptive,300,lbfgs,0.5523809523809524,0.07284313590846835,113
+relu,0.05,False,10,adaptive,300,liblinear,,,251
+relu,0.05,False,10,adaptive,300,sag,,,252
+relu,0.05,False,10,adaptive,300,saga,,,253
+relu,0.05,False,"(20, 20)",constant,100,newton-cg,,,254
+relu,0.05,False,"(20, 20)",constant,100,lbfgs,0.6428571428571429,0.12325884862423604,21
+relu,0.05,False,"(20, 20)",constant,100,liblinear,,,255
+relu,0.05,False,"(20, 20)",constant,100,sag,,,256
+relu,0.05,False,"(20, 20)",constant,100,saga,,,257
+relu,0.05,False,"(20, 20)",constant,200,newton-cg,,,258
+relu,0.05,False,"(20, 20)",constant,200,lbfgs,0.680952380952381,0.08728715609439695,5
+relu,0.05,False,"(20, 20)",constant,200,liblinear,,,259
+relu,0.05,False,"(20, 20)",constant,200,sag,,,260
+relu,0.05,False,"(20, 20)",constant,200,saga,,,272
+relu,0.05,False,"(20, 20)",constant,300,newton-cg,,,283
+relu,0.05,False,"(20, 20)",constant,300,lbfgs,0.638095238095238,0.04616837959444124,33
+relu,0.05,False,"(20, 20)",constant,300,liblinear,,,311
+relu,0.05,False,"(20, 20)",constant,300,sag,,,284
+relu,0.05,False,"(20, 20)",constant,300,saga,,,304
+relu,0.05,False,"(20, 20)",adaptive,100,newton-cg,,,305
+relu,0.05,False,"(20, 20)",adaptive,100,lbfgs,0.6428571428571429,0.12325884862423604,21
+relu,0.05,False,"(20, 20)",adaptive,100,liblinear,,,306
+relu,0.05,False,"(20, 20)",adaptive,100,sag,,,307
+relu,0.05,False,"(20, 20)",adaptive,100,saga,,,308
+relu,0.05,False,"(20, 20)",adaptive,200,newton-cg,,,309
+relu,0.05,False,"(20, 20)",adaptive,200,lbfgs,0.680952380952381,0.08728715609439695,5
+relu,0.05,False,"(20, 20)",adaptive,200,liblinear,,,310
+relu,0.05,False,"(20, 20)",adaptive,200,sag,,,312
+relu,0.05,False,"(20, 20)",adaptive,200,saga,,,320
+relu,0.05,False,"(20, 20)",adaptive,300,newton-cg,,,313
+relu,0.05,False,"(20, 20)",adaptive,300,lbfgs,0.638095238095238,0.04616837959444124,33
+relu,0.05,False,"(20, 20)",adaptive,300,liblinear,,,314
+relu,0.05,False,"(20, 20)",adaptive,300,sag,,,315
+relu,0.05,False,"(20, 20)",adaptive,300,saga,,,316
+relu,0.05,False,"(30, 30, 30)",constant,100,newton-cg,,,317
+relu,0.05,False,"(30, 30, 30)",constant,100,lbfgs,0.6142857142857142,0.05909368402852789,65
+relu,0.05,False,"(30, 30, 30)",constant,100,liblinear,,,318
+relu,0.05,False,"(30, 30, 30)",constant,100,sag,,,319
+relu,0.05,False,"(30, 30, 30)",constant,100,saga,,,303
+relu,0.05,False,"(30, 30, 30)",constant,200,newton-cg,,,302
+relu,0.05,False,"(30, 30, 30)",constant,200,lbfgs,0.6285714285714286,0.07158712561129957,53
+relu,0.05,False,"(30, 30, 30)",constant,200,liblinear,,,301
+relu,0.05,False,"(30, 30, 30)",constant,200,sag,,,300
+relu,0.05,False,"(30, 30, 30)",constant,200,saga,,,285
+relu,0.05,False,"(30, 30, 30)",constant,300,newton-cg,,,286
+relu,0.05,False,"(30, 30, 30)",constant,300,lbfgs,0.6380952380952382,0.06966066113489426,25
+relu,0.05,False,"(30, 30, 30)",constant,300,liblinear,,,287
+relu,0.05,False,"(30, 30, 30)",constant,300,sag,,,288
+relu,0.05,False,"(30, 30, 30)",constant,300,saga,,,289
+relu,0.05,False,"(30, 30, 30)",adaptive,100,newton-cg,,,290
+relu,0.05,False,"(30, 30, 30)",adaptive,100,lbfgs,0.6142857142857142,0.05909368402852789,65
+relu,0.05,False,"(30, 30, 30)",adaptive,100,liblinear,,,291
+relu,0.05,False,"(30, 30, 30)",adaptive,100,sag,,,292
+relu,0.05,False,"(30, 30, 30)",adaptive,100,saga,,,293
+relu,0.05,False,"(30, 30, 30)",adaptive,200,newton-cg,,,294
+relu,0.05,False,"(30, 30, 30)",adaptive,200,lbfgs,0.6285714285714286,0.07158712561129957,53
+relu,0.05,False,"(30, 30, 30)",adaptive,200,liblinear,,,295
+relu,0.05,False,"(30, 30, 30)",adaptive,200,sag,,,296
+relu,0.05,False,"(30, 30, 30)",adaptive,200,saga,,,297
+relu,0.05,False,"(30, 30, 30)",adaptive,300,newton-cg,,,298
+relu,0.05,False,"(30, 30, 30)",adaptive,300,lbfgs,0.6380952380952382,0.06966066113489426,25
+relu,0.05,False,"(30, 30, 30)",adaptive,300,liblinear,,,299
+relu,0.05,False,"(30, 30, 30)",adaptive,300,sag,,,627
+relu,0.05,False,"(30, 30, 30)",adaptive,300,saga,,,720
