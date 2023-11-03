@@ -1,4 +1,9 @@
 # GPT Competency Experiments
+## Contributors
+
+- Muhammad Fawad Akbar Khan (khan@usu.edu) 
+  - [Website](https://mfawadakbar.github.io/)
+- Max Ramsdell (a02237674@usu.edu)
 
 ## Running Instructions
 In order to run any of the top level python scripts (not the jupyter notebook) on a linux-based system, run
