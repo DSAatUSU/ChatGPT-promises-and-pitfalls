@@ -26,3 +26,16 @@ and the sources of code in the `humanCode` directory if it was retrieved online.
 - **metrics.py** used to generate either the `humanCode` directory, or the `3.5turbo` directories for the complexity and other measures we used in our study.
 - **prediction_model.ipynb** the code for the model used to predict if a piece of 
 code was written by chatGPT or by a human. It also has code to generate the analysis figures, and run the model reliability tests.
+
+
+## Citation
+
+If you use the code or data from this repository, please cite the following paper:
+
+@article{khan2023assessing,
+  title={Assessing the Promise and Pitfalls of ChatGPT for Automated Code Generation},
+  author={Khan, Muhammad Fawad Akbar and Ramsdell, Max and Falor, Erik and Karimi, Hamid},
+  journal={arXiv preprint arXiv:2311.02640},
+  year={2023}
+}
+
